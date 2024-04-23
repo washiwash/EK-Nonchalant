@@ -36,6 +36,7 @@ a {
 }
 
 .logo img {
+  padding: 1rem;
   width: 100px;
   height: 100px;
 }
