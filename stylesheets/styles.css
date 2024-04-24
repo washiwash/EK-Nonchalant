@@ -4,6 +4,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 0;
 }
 
 main {
@@ -28,11 +29,21 @@ nav:hover{
 
 }
 
-.nav-items a:hover{
+.nav-items a:hover {
+
     color: #9b5de5;
     border-radius: 4%;
     background-color: #f1f1f1;
 }
+
+.dropdown:hover .dropbtn{
+  
+  color: #9b5de5;
+  border-radius: 4%;
+  background-color: #f1f1f1;
+} 
+
+
 
 
 
@@ -58,4 +69,52 @@ div:nth-of-type(2) {
 
 div:nth-of-type(3) {
   align-self: flex-end;
+}
+
+
+.dropbtn {
+  font-style: normal;
+  color: grey;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(114, 64, 114);
+  min-width: 160px;
+  
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #9b5de5;
+    border-radius: 4%;
+}
+
+.dropbtn{
+  text-transform: uppercase;
 }
