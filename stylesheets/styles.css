@@ -4,6 +4,8 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 0;
+  margin: 0;
 
 }
 
@@ -11,9 +13,14 @@ main {
   border: 2px solid #f1f1f1;
   margin: auto;
   width: 80vw;
+<<<<<<< Updated upstream
   height: auto;
   padding: 1rem;
 
+=======
+  height: 100vh;
+  
+>>>>>>> Stashed changes
 }
 
 nav {
@@ -126,9 +133,10 @@ div:nth-of-type(3) {
 }
 
 /*Slideshow styles */
-* {box-sizing: border-box;}
-body {font-family: "Roboto", sans-serif;}
-.mySlides {display: none;}
+
+.mySlides {
+  display: none;
+}
 img {
   display: block;
   margin-left: auto;
@@ -192,6 +200,7 @@ img {
   to {opacity: 1}
 }
 
+<<<<<<< Updated upstream
 div.scroll-container {
   display: flex;
   flex-wrap: wrap;
@@ -206,3 +215,5 @@ div.scroll-container img {
   padding: 0px;
 }
 
+=======
+>>>>>>> Stashed changes

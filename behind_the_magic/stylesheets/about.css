@@ -1,0 +1,39 @@
+.top-picture img{
+    width: 100%;
+    height: 20%;
+    background-attachment: scroll;
+    filter: saturate(2.3);   
+  
+  }
+
+  .tickets{
+  
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet; 
+    color: white;
+    padding: 16px;  
+    justify-content: space-between;
+    margin: 0;
+ 
+  }
+
+.tickets p{
+    background-color:  blueviolet;
+    text-transform: none;
+    align-self: center;
+}
+  .tickets button{
+    align-self: flex-end;
+    text-transform: uppercase;
+    background: #8e7cc3;
+    border-radius: 1000px;
+    padding: 20px 45px;
+    color:#ffffff;
+    text-align:center;
+
+  }
+
+
